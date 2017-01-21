@@ -1,0 +1,123 @@
+/* Form Progress */
+.levelprogress {
+  margin: 10px auto;
+  text-align: center;
+}
+.levelprogress .circle{
+  display: inline-block;
+  background-image:url('/img/soil.png');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  width: 40px; height: 40px;
+  border-radius: 40px;
+  margin-left: 100px;
+  margin-top: -12px;
+}
+
+.levelprogress .circle .title {
+  display: inline-block;
+  height: 32px;
+  width: 100px;
+  color: white;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: -25px;
+
+}
+/* Done*/
+.levelprogress .circle.done1 {
+  background-image:url('/img/blue_flower.png');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  width: 50px; height: 50px;
+}
+.levelprogress .circle.done2 {
+  background-image:url('/img/pink_flower.png');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  width: 50px; height: 50px;
+}
+.levelprogress .circle.done3 {
+  background-image:url('/img/red_flower.png');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  width: 50px; height: 50px;
+}
+
+
+
+
+/*程式*/
+input[type="text"] {
+  border: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background-color: #eee;
+  text-align: center;
+}
+input[type="text"]:focus {
+  color: red;
+}
+
+
+.list{
+	  list-style: none;
+    box-shadow: 4px 4px 4px 
+    position: relative;
+}
+.list li{
+	  border-bottom: 1px dotted gray;
+    font-size: 18px;
+}
+.list li:hover {
+  background-color: #f0f0f0;
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+}
+
+
+.indent_2Line{
+   padding-left: 20px;
+}
+.indent_3Line{
+	padding-left: 40px;
+}
+.code{
+  margin-top:50px;
+  padding-top:40px;
+  padding-right: 30px;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow:5px 7px 5px #ADADAD;
+  background-color: #eee;
+  position: relative;
+}
+.boxs{
+  margin:10px;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow:5px 7px 5px #ADADAD;
+  background-color: #eee;
+  position: relative;
+  /*/top:50%;
+  transform:translateY(-50%);*/
+}
+hr.style17 {
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+}
+hr.style17:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
